@@ -34,14 +34,14 @@ char *_strcpy(char *dest, char *src)
 {
 	int length, i;
 
-	len = 0;
+	length = 0;
 
 	while (src[length] != '\0')
 	{
 		length++;
 	}
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i < length; i++)
 	{
 		dest[i] = src[i];
 	}
