@@ -3,7 +3,7 @@
 /**
  * array_iterator - prints each array element on a file
  * @array: configuration
- * @size: many to element prin
+ * @size: many to element print
  * @action: pointer to print in regular
  * Return: nothing
  */
@@ -16,6 +16,6 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	for (j = 1; j < size; j++)
 	{
-		action(rray[j]);
+		action(array[j]);
 	}
 }
