@@ -10,15 +10,15 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list stars;
+	va_list mus;
 	char *str;
 	unsigned int index;
 
-	va_start(stars, n);
+	va_start(mus, n);
 
 	for (index = 0; index < n; index++)
 	{
-		str = va_arg(stars, char *);
+		str = va_arg(mus, char *);
 
 		if (str == NULL)
 			printf("(nil)");
