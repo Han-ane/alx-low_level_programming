@@ -10,7 +10,7 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list star;
+	va_list stars;
 	char *str;
 	unsigned int index;
 
